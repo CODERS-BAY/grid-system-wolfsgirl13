@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #3f2b20;
+
+    height: 100px;
+    justify-content: space-between;
+    /*größtmöglicher Abstand*/
+    padding: 15px 20px;
+    z-index: 10;
+    position: relative;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: rgb(248, 247, 247);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.img-fit {
+    /* tool für Fotos*/
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+
+.welcome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*größtmöglicher Abstand*/
+    margin: 70px 90px 70px 90px;
+    z-index: 10;
+    position: relative;
+}
+
+h1 {
+    color: #6d4b38;
+    text-transform: uppercase;
+}
+
+.maincontent {
+    display: flex;
+    margin: 70px 90px 70px 90px;
+}
+
+.maincontent div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px 20px 40px;
+    width: 100%;
+    /* alle gleich groß*/
+    text-align: center;
+}
+
+h2 {
+    color: #6d4b38;
+    text-align: center;
+}
+
+#zwei {
+    color: red;
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.button {
+    background-color: #6d4b38;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.foto {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#schokoladepur {
+    background-image: url(img/hintergrund.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    decoration: white;
+}
+
+h3 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 0 4px 4px #33241b;
+    text-transform: uppercase;
+}
+
+.middle1 {
+    display: flex;
+    margin: 70px 90px 70px 90px;
+}
+
+.middle1 div {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /*padding: 20px 20px 40px;*/
+    /* width: 100%;  alle gleich groß*/
+    text-align: start;
+}
+
+.middle2 {
+    display: flex;
+    margin: 70px 90px 70px 90px;
+    flex-direction: row-reverse;
+}
+
+.middle2 div {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /*padding: 20px 20px 40px;*/
+    /* width: 100%;  alle gleich groß*/
+    text-align: start;
+}
+
+.copyright {
+    text-align: right;
+    color: white;
+    align-items: center;
+}
